@@ -19,7 +19,7 @@
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $item->title; ?></h5>
                     <a href="/admin/article_edit.php?news=edit&id=<?php echo $item->id; ?>" class="btn btn-success btn-sm">Редактировать</a>
-                    <a href="/edit.php?article_delete&id=<?php echo $item->id; ?>" class="btn btn-danger btn-sm">Удалить</a>
+                    <a href="/admin/article_delete.php?article_delete&id=<?php echo $item->id; ?>" class="btn btn-danger btn-sm">Удалить</a>
                 </div>
             </div>
         </div>
