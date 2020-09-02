@@ -5,7 +5,7 @@ return [
     'localhost', //host
     '3306', //port
     'php2', //db_name
-    'mysql',//user
+    'mysql', //user
     'mysql', //password
 ];
 
